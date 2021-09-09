@@ -12,9 +12,9 @@
                 <span class="post-meta-item post-meta-date">
                     <time datetime="{{date format="YYYY-MM-DD"}}">
                         {{#unless number_date}}
-                            {{date published_at timeago="true"}}
+                            {{date updated_at timeago="true"}}
                         {{else}}
-                            {{date published_at}}
+                            {{date updated_at}}
                         {{/unless}}
                     </time>
                 </span>
