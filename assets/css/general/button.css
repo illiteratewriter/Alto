@@ -22,3 +22,19 @@
 .button-arrow-right:hover .button-arrow-icon {
     transform: translateX(5px);
 }
+
+.button {
+    background-color: #fe9900;
+    border: none!important;
+    color: #000!important;
+    padding: 15px 32px;
+    -webkit-text-emphasis: center;
+    text-emphasis: center;
+    border: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    justify-self: self-start;
+    font-weight: 800;
+  }
