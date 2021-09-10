@@ -15,6 +15,8 @@
     --dark-mode-border-color: #495061;
     --animation-base: ease-in-out;
     --shadow-base: 0 0 5px rgba(0, 0, 0, 0.2);
+    --table-background-color-odd: #fafafa;
+    --anchor-color: #49a8e4;
     --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; /* stylelint-disable-line value-keyword-case */
 }
 
@@ -42,7 +44,7 @@ body {
 }
 
 a {
-    color: var(--dark-gray-color);
+    color: var(--anchor-color) !important;
     text-decoration: none;
 }
 

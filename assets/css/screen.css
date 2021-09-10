@@ -3,6 +3,7 @@
 @import "general/grid.css";
 @import "general/button.css";
 @import "general/form.css";
+@import "general/table.css";
 @import "site/header.css";
 @import "site/burger.css";
 @import "site/switch.css";
